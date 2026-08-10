@@ -9,6 +9,22 @@ import streamlit.components.v1 as components
 import os
 
 st.set_page_config(page_title="Loves AI", page_icon="⚡")
+
+# Paste the mobile padding fix right here:
+st.markdown(
+    """
+    <style>
+    .block-container {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 st.title("⚡ Loves Assistant")
 
 # ---------------------------------------------------------
