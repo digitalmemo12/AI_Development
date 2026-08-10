@@ -241,7 +241,7 @@ for message in st.session_state.messages:
         st.markdown(message["content"])
 
 with st.sidebar:
-    st.image("saitou.jpg", use_container_width=True)
+    st.image("saitou.JPG", use_container_width=True)
     if st.button("🔄 New Chat"):
         cursor = conn.cursor()
         cursor.execute("DELETE FROM messages")  
