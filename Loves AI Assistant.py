@@ -19,6 +19,10 @@ st.markdown(
         padding-bottom: 2rem;
         padding-left: 1rem;
         padding-right: 1rem;
+        color: #FFFFFF;
+    }
+    h1, h2, h3, p {
+        color: #FFFFFF !important;
     }
     </style>
     """,
