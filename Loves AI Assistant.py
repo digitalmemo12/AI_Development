@@ -14,14 +14,21 @@ st.set_page_config(page_title="Loves AI", page_icon="⚡")
 st.markdown(
     """
     <style>
+    /* Mobile layout padding */
     .block-container {
         padding-top: 2rem;
         padding-bottom: 2rem;
         padding-left: 1rem;
         padding-right: 1rem;
-        color: #FFFFFF;
     }
-    h1, h2, h3, p {
+    
+    /* Make the main title / header text black */
+    h1 {
+        color: #000000 !important;
+    }
+
+    /* Style the chat input text to be white when typing */
+    .stChatInput textarea {
         color: #FFFFFF !important;
     }
     </style>
