@@ -4,7 +4,6 @@ from google.genai import types
 import datetime
 from zoneinfo import ZoneInfo
 import sqlite3
-import pyttsx3
 import re
 import streamlit.components.v1 as components
 from playsound import playsound
