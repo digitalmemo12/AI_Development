@@ -6,7 +6,6 @@ from zoneinfo import ZoneInfo
 import sqlite3
 import re
 import streamlit.components.v1 as components
-from playsound import playsound
 import os
 
 st.set_page_config(page_title="Loves AI", page_icon="⚡")
